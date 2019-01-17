@@ -1,0 +1,15 @@
+server:
+    servlet:
+        context-path: /demo
+
+spring:
+    datasource:
+        url: jdbc:mysql://127.0.0.1:3306/cvs?useSSL=true&useUnicode=true&characterEncoding=UTF8&serverTimezone=UTC
+        username: root
+        password: root
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        
+
+mybatis:
+  type-aliases-package: com.example.demo.bean  # 注意：对应实体类的路径
+
